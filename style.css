@@ -6,41 +6,72 @@ body{
     width: 100vw;
     height: 100vh;
 }
+.calculator{
+    background-color: beige;
+    border: 2px solid rgb(107, 107, 107);
+    padding: 10px;
+}
 
 /* buttons */
-
 .btn{
     height: 65px;
     width: 65px;
     margin: 10px;
     font-size: 30px;
-    
 }
-
 .number{
     border: 1px solid black;
     transition: 0.2s;
     
-}
-
-.number:hover{
-    background-color: rgb(218, 218, 218);
-    border: 1px solid black;
-    padding: 15px;
-    text-shadow: 1px 1px 9px rgba(29, 29, 20, 0.5);
     
 }
-
 .operator{
     border: 1px solid black;
     transition: 0.2s;
-    
 }
-
-.operator:hover{
+.equal{
+    border: 1px solid black;
+    transition: 0.2s;
+}
+.decimal{
+    border: 1px solid black;
+    transition: 0.2s;
+} 
+.clear{
+    border: 1px solid black;
+    transition: 0.2s;
+}
+.btn:hover{
     background-color: rgb(218, 218, 218);
     border: 1px solid black;
     padding: 15px;
-    text-shadow: 1px 1px 9px rgba(29, 29, 20, 0.5);
+    box-shadow: 2px -3px 3px rgba(0, 0, 0, 0.404);
     
+    
+}
+
+/* Screnn */
+#first{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+
+}
+#screen{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgb(207, 205, 170);
+    height: 72px;
+    width: 248px;
+    margin: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+.current{
+font-size: 30px;
+
+}
+.previous{
+font-size: 20px;
 }
