@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* buttons */
+
+.btn{
+    height: 65px;
+    width: 65px;
+    margin: 10px;
+    font-size: 30px;
+    
+}
+
+.number{
+    border: 1px solid black;
+    transition: 0.2s;
+    
+}
+
+.number:hover{
+    background-color: rgb(218, 218, 218);
+    border: 1px solid black;
+    padding: 15px;
+    text-shadow: 1px 1px 9px rgba(29, 29, 20, 0.5);
+    
+}
+
+.operator{
+    border: 1px solid black;
+    transition: 0.2s;
+    
+}
+
+.operator:hover{
+    background-color: rgb(218, 218, 218);
+    border: 1px solid black;
+    padding: 15px;
+    text-shadow: 1px 1px 9px rgba(29, 29, 20, 0.5);
+    
+}
