@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function(){
         if(previousValue.length <= 14){
             Scurrent.textContent = previousValue
         }else{
-            Scurrent.textContent = previousValue.slice(0,5) + "...";
+            Scurrent.textContent = previousValue.slice(0,100) + "...";
         }
 
     })
